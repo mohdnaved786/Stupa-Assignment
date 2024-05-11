@@ -1,3 +1,17 @@
+<!-- Important Info -->
+
+
+1.After Clone this reposetory you need to first install all node packages Using this command
+
+====>    npm install OR npm i 
+
+
+Now all packages are installed and now you can run this project
+
+using this command =====> ng server OR ng s 
+
+Thanks and Regards!!
+
 # StupaAssignment
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.14.
