@@ -1,0 +1,43 @@
+.dog-container {
+  position: relative;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  text-align: center;
+}
+
+.dog-text {
+  font-size: 30em;
+  color: #F9A825;
+  font-weight: 500;
+  padding: 10px 20px;
+  text-shadow: 6px 6px 0px rgb(255 0 0);
+}
+
+.dog-image {
+  position: relative;
+  width: 230px;
+  height: 243px;
+  z-index: 0;
+}
+
+
+@media(min-width: 320px) and (max-width:768px){
+  .dog-text{
+    font-size: 11em;
+  }
+
+  .dog-image{
+    width: 100px;
+    height: 80px
+  }
+}
